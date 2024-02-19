@@ -25,10 +25,10 @@
 		Phone<input type="text" name="phone"/>
 		<input type="hidden" name="id" value="${flights.id}"/>
 	<h2>Enter the card details</h2>
-		Card Number<input type="text" /><br/>
-		CVV<input type="text"/><br/>
-		Expiry Date<input type="text" /><br/>
-		Amount<input type="text"/><br/>
+		Card Number<input type="text" name="cardNumber"/><br/>
+		CVV<input type="text" name="cvv"/><br/>
+		Expiry Date<input type="text" name="expiryDate"/><br/>
+		Amount<input type="text" name="amount"/><br/>
 		<input type="Submit" value="proceed"/>
 	</pre>
 	</form>

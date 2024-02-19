@@ -20,7 +20,7 @@ import com.psa.flightapp.utilities.PdfGenerator;
 @Controller
 public class ReservationController {
 	
-	private static String filePath="C:\\Users\\Pankaj\\Documents\\workspace-spring-tool-suite-4-4.7.0.RELEASE\\flight_reservation_app_6\\src\\tickets\\booking";
+	private static String filePath="C:\\Flight\\flight_reservation_app_6\\src\\tickets";
 	@Autowired
 	private EmailUtil emailUtil;
 	

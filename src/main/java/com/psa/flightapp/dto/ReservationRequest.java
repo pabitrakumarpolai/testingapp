@@ -8,6 +8,10 @@ public class ReservationRequest {
 	private String email;
 	private String phone;
 	private long id;
+	private String cardNumber;
+	private String cvv;
+	private String expiryDate ;
+	private String amount;
 	public String getFirstName() {
 		return firstName;
 	}
@@ -44,4 +48,30 @@ public class ReservationRequest {
 	public void setId(long id) {
 		this.id = id;
 	}
+	public String getCardNumber() {
+		return cardNumber;
+	}
+	public void setCardNumber(String cardNumber) {
+		this.cardNumber = cardNumber;
+	}
+	public String getCvv() {
+		return cvv;
+	}
+	public void setCvv(String cvv) {
+		this.cvv = cvv;
+	}
+	public String getExpiryDate() {
+		return expiryDate;
+	}
+	public void setExpiryDate(String expiryDate) {
+		this.expiryDate = expiryDate;
+	}
+	public String getAmount() {
+		return amount;
+	}
+	public void setAmount(String amount) {
+		this.amount = amount;
+	}
+	
+	
 }
